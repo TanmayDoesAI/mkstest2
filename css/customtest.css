@@ -235,8 +235,14 @@
     border-bottom: 1px solid white;
     padding-top: 5%;
   }
-  custom-sponsor-align{
-      margin-right: -8%;
+  custom-sponsor-align {
+    margin-right: -8%;
     margin-left: -15%;
+  }
+  .sponsor-align2 {
+    margin-left: -23%;
+  }
+  .sponsor-align3 {
+    margin-left: -10%;
   }
 }
