@@ -60,6 +60,14 @@ html {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
+/* 
+.sponsor-align2{
+	margin-left: -5% !important;
+} */
+
+.sponsor-align2{
+	/* margin-left: -23px; */
+}
 
 .featurebutton:hover {
 	background: #9539bf;
@@ -2588,6 +2596,10 @@ h1 {
 	border-radius: 0.5rem;
 	/* background: rgba(83, 83, 83, 0.6); */
 }
+.food-sponsor{
+	padding: 10px;
+	max-height: 30vh;
+}
 
 h1 .small-border {
 	margin-top: 30px;
@@ -4440,14 +4452,14 @@ a.btn-right {
 	/* ================================================== */
 .speakers-item {
 	/* border: 2px solid rebeccapurple; */
-	padding: 5rem;
+	padding: 3rem;
 }
 .speakers-flex  {
 	display: grid !important;
 	align-items: center !important;
 	justify-content: center !important;
 
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: repeat(3, 1fr);
 
 	/* border: 2px solid red; */
 	width: 90vw;
@@ -4673,6 +4685,11 @@ a.btn-right {
 		gap: 1rem;
 		margin: 0;
 		padding: 0rem;
+	}
+	.de-team-list img {
+		width: 100%;
+		padding-left: 10%;
+		padding-right: 7%;
 	}
 	.footer-main-sec {
 		flex-direction: column;
